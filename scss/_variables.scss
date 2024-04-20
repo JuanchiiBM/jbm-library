@@ -1,0 +1,40 @@
+// Colors
+$Color0: #000009;
+$Color1: #070D18;
+$Color2: #0E1A27;
+$Color3: #152736;
+$Color4: #1C3445;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $Color0
+}
+
+// TEXT
+
+.jbm-text {
+    color: white;
+    text-decoration: none;
+}
+
+.jbm-text-md {
+    font-size: clamp(10px, 1.5vw, 3em);
+}
+
+.jbm-text-sm {
+
+}
+
+.jbm-text-xs {
+
+}
+
+.jbm-text-lg {
+
+}
+
+.jbm-text-xl {
+    
+}
