@@ -1,0 +1,53 @@
+.jbm-btn {
+    transition: background-color 0.125s ease-in-out;
+    cursor: pointer;
+    background-color: $greyC;
+    width: $btn-width-md;
+    height: calc($btn-width-md/2);
+    border-radius: calc($btn-width-md/10);
+    font-size: $font-size-md;
+    border: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &:hover {
+        transition: background-color 0.125s ease-in-out;
+        background-color: $greyE;
+    }
+}
+
+.jbm-btn-xl {
+    width: $btn-width-xl;
+    height: calc($btn-width-xl/2);
+    border-radius: calc($btn-width-xl/10);
+    font-size: $font-size-xl;
+}
+
+.jbm-btn-lg {
+    width: $btn-width-lg;
+    height: calc($btn-width-lg/2);
+    border-radius: calc($btn-width-lg/10);
+    font-size: $font-size-lg;
+}
+
+.jbm-btn-md {
+    width: $btn-width-md;
+    height: calc($btn-width-md/2);
+    border-radius: calc($btn-width-md/10);
+    font-size: $font-size-md;
+}
+
+.jbm-btn-sm {
+    width: $btn-width-sm;
+    height: calc($btn-width-sm/2);
+    border-radius: calc($btn-width-sm/10);
+    font-size: $font-size-sm;
+}
+
+.jbm-btn-xs {
+    width: $btn-width-xs;
+    height: calc($btn-width-xs/2);
+    border-radius: calc($btn-width-xs/10);
+    font-size: $font-size-xxs;
+}

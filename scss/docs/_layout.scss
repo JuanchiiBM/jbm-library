@@ -10,11 +10,37 @@
     }
 
     p {
-        margin-bottom: 5rem;
+        margin-top: 0.2em;
+        margin-bottom: 0;
     }
 
-    h2 {
-        font-size: $font-size-xxl;
-        
+    span {
+        display: flex;
+        align-items: center;
+        margin-top: 5em;
+
+        h2 {
+            font-size: $font-size-xl;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        i {
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+    }
+
+    section {
+
+        span {
+            margin: 1rem 20px 1rem 0px;
+            background-color: white;
+            display: flex;
+            width: auto;
+            position: relative;
+            height: 1px;
+        }
     }
 }

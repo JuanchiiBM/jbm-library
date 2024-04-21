@@ -8,6 +8,22 @@ $Color5: #283f4f;
 $Color6: #3d4c57;
 $Color7: #6d7173;
 
+// Grey
+$grey1: #111111;
+$grey2: #222222;
+$grey3: #333333;
+$grey4: #444444;
+$grey5: #555555;
+$grey6: #666666;
+$grey7: #777777;
+$grey8: #888888;
+$grey9: #999999;
+$greyA: #aaaaaa;
+$greyB: #bbbbbb;
+$greyC: #cccccc;
+$greyD: #dddddd;
+$greyE: #eeeeee;
+
 // Header
 $header-height: 40px;
 $header-padding: 10px;
@@ -29,3 +45,12 @@ $font-size-md: clamp(1.125rem, 1.375vw, 1.625rem);
 $font-size-sm: clamp(0.875rem, 1.125vw, 1.375rem);
 $font-size-xs: clamp(0.75rem, 1vw, 1.25rem);
 $font-size-xxs: clamp(0.625rem, 0.875vw, 1.125rem);
+
+// Components
+
+// Button
+$btn-width-xl: clamp(200px, 7.5vw, 250px);
+$btn-width-lg: clamp(150px, 7.5vw, 200px);
+$btn-width-md: clamp(100px, 7.5vw, 150px);
+$btn-width-sm: clamp(75px, 7.5vw, 100px);
+$btn-width-xs: clamp(50px, 7.5vw, 75px);

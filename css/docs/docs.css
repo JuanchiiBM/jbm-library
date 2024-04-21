@@ -1,0 +1,91 @@
+.jbm-content {
+  margin-left: 270px;
+  width: auto;
+  color: white;
+}
+.jbm-content h1 {
+  font-size: clamp(2.125rem, 2.375vw, 2.625rem);
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+.jbm-content p {
+  margin-top: 0.2em;
+  margin-bottom: 0;
+}
+.jbm-content span {
+  display: flex;
+  align-items: center;
+  margin-top: 5em;
+}
+.jbm-content span h2 {
+  font-size: clamp(1.5rem, 1.75vw, 2rem);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.jbm-content span i {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.jbm-content section span {
+  margin: 1rem 20px 1rem 0px;
+  background-color: white;
+  display: flex;
+  width: auto;
+  position: relative;
+  height: 1px;
+}
+
+.jbm-btn {
+  transition: background-color 0.125s ease-in-out;
+  cursor: pointer;
+  background-color: #cccccc;
+  width: clamp(100px, 7.5vw, 150px);
+  height: calc(clamp(100px, 7.5vw, 150px) / 2);
+  border-radius: calc(clamp(100px, 7.5vw, 150px) / 10);
+  font-size: clamp(1.125rem, 1.375vw, 1.625rem);
+  border: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.jbm-btn:hover {
+  transition: background-color 0.125s ease-in-out;
+  background-color: #eeeeee;
+}
+
+.jbm-btn-xl {
+  width: clamp(200px, 7.5vw, 250px);
+  height: calc(clamp(200px, 7.5vw, 250px) / 2);
+  border-radius: calc(clamp(200px, 7.5vw, 250px) / 10);
+  font-size: clamp(1.5rem, 1.75vw, 2rem);
+}
+
+.jbm-btn-lg {
+  width: clamp(150px, 7.5vw, 200px);
+  height: calc(clamp(150px, 7.5vw, 200px) / 2);
+  border-radius: calc(clamp(150px, 7.5vw, 200px) / 10);
+  font-size: clamp(1.375rem, 1.625vw, 1.875rem);
+}
+
+.jbm-btn-md {
+  width: clamp(100px, 7.5vw, 150px);
+  height: calc(clamp(100px, 7.5vw, 150px) / 2);
+  border-radius: calc(clamp(100px, 7.5vw, 150px) / 10);
+  font-size: clamp(1.125rem, 1.375vw, 1.625rem);
+}
+
+.jbm-btn-sm {
+  width: clamp(75px, 7.5vw, 100px);
+  height: calc(clamp(75px, 7.5vw, 100px) / 2);
+  border-radius: calc(clamp(75px, 7.5vw, 100px) / 10);
+  font-size: clamp(0.875rem, 1.125vw, 1.375rem);
+}
+
+.jbm-btn-xs {
+  width: clamp(50px, 7.5vw, 75px);
+  height: calc(clamp(50px, 7.5vw, 75px) / 2);
+  border-radius: calc(clamp(50px, 7.5vw, 75px) / 10);
+  font-size: clamp(0.625rem, 0.875vw, 1.125rem);
+}
+
+/*# sourceMappingURL=docs.css.map */
