@@ -13,11 +13,24 @@
 }
 
 .jbm-menu-list-group {
+    background-color: transparent;
+
+    span {
+        background-color: white;
+        display: flex;
+        height: 90%;
+        position: absolute;
+        top: calc(0px + 5%);
+        left: $menu-width;
+        width: 1px;
+    }
+
     ul {
         padding-left: $ul-padding-left;
         list-style: none;
 
-        li, a {
+        li,
+        a {
             color: white;
             text-decoration: none;
             margin: $li-margin-top-bottom 0;
@@ -25,13 +38,16 @@
 
         .item {
             font-size: $font-size-sm;
+
             a {
                 padding: $li-padding;
                 border-radius: calc($li-padding/1.125);
+                
 
                 &:hover {
-                    transition: background-color 0.125s ease-in-out;
+                    transition: background-color 0.125s ease-in-out, box-shadow 0.125s ease-in-out;
                     background-color: $Color5;
+                    box-shadow: 0px 0px 15px 3px black inset;
                 }
             }
         }
@@ -43,10 +59,6 @@
             padding-left: $li-padding;
             display: flex;
             align-items: center;
-            i {
-                position: absolute;
-                left: calc($ul-padding-left - $font-size-md - 5px);
-            }
         }
     }
 }

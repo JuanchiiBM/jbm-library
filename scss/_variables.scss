@@ -20,6 +20,8 @@ $li-margin-top-bottom: 15px;
 $li-padding: 5px;
 
 // Font-Size
+$font-size-h1: clamp(2.125rem, 2.375vw, 2.625rem);
+
 $font-size-xxl: clamp(1.625rem, 1.875vw, 2.125rem);
 $font-size-xl: clamp(1.50rem, 1.75vw, 2rem);
 $font-size-lg: clamp(1.375rem, 1.625vw, 1.875rem);
