@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $Color0
+}
+
+// TEXT
+
+.jbm-text {
+    color: white;
+    text-decoration: none;
+}
+
+.jbm-text-xxl {
+    font-size: $font-size-xl;
+}
+
+.jbm-text-xl {
+    font-size: $font-size-xl;
+}
+
+
+.jbm-text-lg {
+    font-size: $font-size-lg;
+}
+
+.jbm-text-md {
+    font-size: $font-size-md;
+}
+
+.jbm-text-sm {
+    font-size: $font-size-sm;
+}
+
+.jbm-text-xs {
+    font-size: $font-size-xs;
+}
+
+
