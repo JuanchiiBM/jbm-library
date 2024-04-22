@@ -54,3 +54,23 @@ $btn-width-lg: clamp(150px, 7.5vw, 200px);
 $btn-width-md: clamp(100px, 7.5vw, 150px);
 $btn-width-sm: clamp(75px, 7.5vw, 100px);
 $btn-width-xs: clamp(50px, 7.5vw, 75px);
+
+$btn-color-red: rgb(200, 0, 0);
+$btn-color-red-hover: rgb(170, 0, 0);
+$btn-color-red-active: rgb(150, 0, 0);
+
+$btn-color-green: rgb(0, 200, 0);
+$btn-color-green-hover: rgb(0, 170, 0);
+$btn-color-green-active: rgb(0, 150, 0);
+
+$btn-color-blue: rgb(0, 0, 200);
+$btn-color-blue-hover: rgb(0, 0, 170);
+$btn-color-blue-active: rgb(0, 0, 150);
+
+$btn-color-yellow: rgb(200, 200, 0);
+$btn-color-yellow-hover: rgb(170, 170, 0);
+$btn-color-yellow-active: rgb(150, 150, 0);
+
+$btn-color-black: rgb(30, 30, 30);
+$btn-color-black-hover: rgb(10, 10, 10);
+$btn-color-black-active: rgb(0, 0, 0);

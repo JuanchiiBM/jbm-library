@@ -1,7 +1,7 @@
 .jbm-btn {
     transition: background-color 0.125s ease-in-out;
     cursor: pointer;
-    background-color: $greyC;
+    background-color: $greyE;
     width: $btn-width-md;
     height: calc($btn-width-md/2);
     border-radius: calc($btn-width-md/10);
@@ -13,9 +13,95 @@
 
     &:hover {
         transition: background-color 0.125s ease-in-out;
-        background-color: $greyE;
+        background-color: $greyC;
+    }
+
+    &:active {
+        background-color: $greyB;
     }
 }
+
+// Btn Colors
+
+.jbm-btn-red {
+    background-color: $btn-color-red;
+    color: white;
+
+    &:hover {
+        background-color: $btn-color-red-hover;
+    }
+
+    &:active {
+        background-color: $btn-color-red-active;
+    }
+}
+
+.jbm-btn-red {
+    background-color: $btn-color-red;
+    color: white;
+
+    &:hover {
+        background-color: $btn-color-red-hover;
+    }
+
+    &:active {
+        background-color: $btn-color-red-active;
+    }
+}
+
+.jbm-btn-green {
+    background-color: $btn-color-green;
+    color: white;
+
+    &:hover {
+        background-color: $btn-color-green-hover;
+    }
+
+    &:active {
+        background-color: $btn-color-green-active;
+    }
+}
+
+.jbm-btn-blue {
+    background-color: $btn-color-blue;
+    color: white;
+
+    &:hover {
+        background-color: $btn-color-blue-hover;
+    }
+
+    &:active {
+        background-color: $btn-color-blue-active;
+    }
+}
+
+.jbm-btn-yellow {
+    background-color: $btn-color-yellow;
+    color: black;
+
+    &:hover {
+        background-color: $btn-color-yellow-hover;
+    }
+
+    &:active {
+        background-color: $btn-color-yellow-active;
+    }
+}
+
+.jbm-btn-black {
+    background-color: $btn-color-black;
+    color: white;
+
+    &:hover {
+        background-color: $btn-color-black-hover;
+    }
+
+    &:active {
+        background-color: $btn-color-black-active;
+    }
+}
+
+// Btn Sizes
 
 .jbm-btn-xl {
     width: $btn-width-xl;
@@ -50,4 +136,31 @@
     height: calc($btn-width-xs/2);
     border-radius: calc($btn-width-xs/10);
     font-size: $font-size-xxs;
+}
+
+// Outline Btns
+
+.jbm-btn-outline {
+    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    background-color: transparent;
+    outline: 1px solid $greyE;
+    line-height: 0;
+    color: $greyC;
+
+    &:hover {
+        transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+        color: black
+    }
+}
+
+.jbm-btn-outline-red {
+    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    background-color: transparent;
+    outline: 1px solid $btn-color-red;
+    line-height: 0;
+    color: $btn-color-red;
+
+    &:hover {
+        transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    }
 }

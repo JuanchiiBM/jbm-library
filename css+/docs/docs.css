@@ -34,11 +34,6 @@
   position: relative;
   height: 1px;
 }
-.jbm-content .container-flex {
-  display: flex;
-  justify-content: flex-start;
-  gap: 10px;
-}
 
 .jbm-btn {
   transition: background-color 0.125s ease-in-out;
@@ -167,11 +162,9 @@
   background-color: transparent;
   outline: 1px solid #eeeeee;
   line-height: 0;
-  color: #cccccc;
 }
 .jbm-btn-outline:hover {
   transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-  color: black;
 }
 
 .jbm-btn-outline-red {
@@ -179,7 +172,6 @@
   background-color: transparent;
   outline: 1px solid rgb(200, 0, 0);
   line-height: 0;
-  color: rgb(200, 0, 0);
 }
 .jbm-btn-outline-red:hover {
   transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;

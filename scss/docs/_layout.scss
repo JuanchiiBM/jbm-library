@@ -14,7 +14,7 @@
         margin-bottom: 0;
     }
 
-    .horizontal-line {
+    .margin-span {
         display: flex;
         align-items: center;
         margin-top: 5em;
@@ -42,5 +42,11 @@
             position: relative;
             height: 1px;
         }
+    }
+
+    .container-flex {
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
     }
 }
