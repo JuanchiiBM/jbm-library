@@ -1,7 +1,7 @@
 .jbm-menu {
     height: calc(100% - $header-height - $header-padding*2);
     width: $menu-width;
-    position: absolute;
+    position: fixed;
     background-color: $Color3;
     z-index: 3;
 }

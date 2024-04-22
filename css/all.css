@@ -5,6 +5,19 @@ html, body {
   background-color: #000009;
 }
 
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000009;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #152736;
+  border-left: 3px solid #000009;
+}
+
 .jbm-text {
   color: white;
   text-decoration: none;
@@ -34,11 +47,16 @@ html, body {
   font-size: clamp(0.75rem, 1vw, 1.25rem);
 }
 
+.jbm-header-fixed-body {
+  margin-top: 60px;
+}
+
 .jbm-header {
   width: 100%;
   height: 40px;
   background-color: #152736;
   padding: 10px 0px;
+  z-index: 5;
 }
 .jbm-header .jbm-header-left {
   width: 30%;
@@ -60,10 +78,15 @@ html, body {
   margin: 0 10px;
 }
 
+.jbm-header-fixed {
+  position: fixed;
+  top: 0;
+}
+
 .jbm-menu, .jbm-menu-top {
   height: calc(100% - 40px - 20px);
   width: 250px;
-  position: absolute;
+  position: fixed;
   background-color: #152736;
   z-index: 3;
 }

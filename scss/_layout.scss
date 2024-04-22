@@ -2,8 +2,21 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: $Color0
+    background-color: $Color0;
 }
+
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: $Color0;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: $Color3;
+    border-left: 3px solid $Color0;
+  }
 
 // TEXT
 
@@ -36,4 +49,9 @@ html, body {
     font-size: $font-size-xs;
 }
 
+// Header Fixed
+
+.jbm-header-fixed-body {
+    margin-top: $header-height + $header-padding*2;
+}
 

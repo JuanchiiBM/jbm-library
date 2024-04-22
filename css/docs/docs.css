@@ -12,17 +12,17 @@
   margin-top: 0.2em;
   margin-bottom: 0;
 }
-.jbm-content span {
+.jbm-content .horizontal-line {
   display: flex;
   align-items: center;
   margin-top: 5em;
 }
-.jbm-content span h2 {
+.jbm-content .horizontal-line h2 {
   font-size: clamp(1.5rem, 1.75vw, 2rem);
   margin-top: 0;
   margin-bottom: 0;
 }
-.jbm-content span i {
+.jbm-content .horizontal-line i {
   margin-left: 10px;
   cursor: pointer;
 }

@@ -3,6 +3,7 @@
     height: $header-height;
     background-color: $Color3;
     padding: $header-padding 0px;
+    z-index: 5;
 
     .jbm-header-left {
         width: 30%;
@@ -25,4 +26,9 @@
             margin: 0 10px;
         }
     }
+}
+
+.jbm-header-fixed {
+    position: fixed;
+    top: 0;
 }
