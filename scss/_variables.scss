@@ -74,3 +74,14 @@ $btn-color-yellow-active: rgb(150, 150, 0);
 $btn-color-black: rgb(30, 30, 30);
 $btn-color-black-hover: rgb(10, 10, 10);
 $btn-color-black-active: rgb(0, 0, 0);
+
+
+// Loaders
+
+$loader-spinner-color: white;
+$loader-spinner-width-md: 40px;
+$loader-spinner-border-width: 5px;
+
+$loader-columns-color: white;
+$loader-columns-after-color: darken($loader-columns-color, 25%);
+$loader-columns-width-md: 40px;

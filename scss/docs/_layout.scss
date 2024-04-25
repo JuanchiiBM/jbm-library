@@ -34,7 +34,7 @@
 
     section {
 
-        span {
+        .horizontal-line-span {
             margin: 1rem 20px 1rem 0px;
             background-color: white;
             display: flex;
@@ -47,6 +47,7 @@
     .container-flex {
         display: flex;
         justify-content: flex-start;
+        align-items: center;
         gap: 10px;
     }
 }
